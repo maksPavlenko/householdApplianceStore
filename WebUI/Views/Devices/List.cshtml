@@ -1,0 +1,17 @@
+﻿@using Domain.Entities
+@model IEnumerable<Device>
+
+@{
+    ViewBag.Title = "Побутова техніка";
+}
+
+@foreach (Device device in Model)
+{
+    <div>
+        <h3>@device.Name</h3>
+        <p>@device.Description</p>
+        <h4>@device.Price.ToString("# грн")</h4>
+    </div>
+    <hr />
+}
+
