@@ -22,3 +22,8 @@ C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\Domain\bin\Deb
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\Domain\obj\Debug\Domain.dll
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\Domain\obj\Debug\Domain.pdb
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\Domain\bin\Debug\Domain.dll.config
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\Domain\bin\Debug\EntityFramework.dll
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\Domain\bin\Debug\EntityFramework.xml
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\Domain\bin\Debug\EntityFramework.SqlServer.xml

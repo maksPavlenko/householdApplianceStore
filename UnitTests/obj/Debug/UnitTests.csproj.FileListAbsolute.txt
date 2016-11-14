@@ -38,3 +38,5 @@ C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\UnitTests\bin\
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\UnitTests\obj\Debug\UnitTests.dll
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\UnitTests\obj\Debug\UnitTests.pdb
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\UnitTests\bin\Debug\EntityFramework.xml

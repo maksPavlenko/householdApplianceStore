@@ -1,17 +1,21 @@
-﻿@using Domain.Entities
-@model IEnumerable<Device>
+﻿@using WebUI.Models
+@model DevicesListViewModel
 
 @{
     ViewBag.Title = "Побутова техніка";
 }
 
-@foreach (Device device in Model)
+@foreach (var device in Model.Devices)
 {
     <div>
-        <h3>@device.Name</h3>
+        <h3>@device.Name - @device.Country</h3>
         <p>@device.Description</p>
         <h4>@device.Price.ToString("# грн")</h4>
     </div>
     <hr />
 }
+
+<div>
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x}))
+</div>
 

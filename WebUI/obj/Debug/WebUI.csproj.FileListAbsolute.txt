@@ -35,3 +35,7 @@ C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\bin\ru\S
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\obj\Debug\WebUI.csprojResolveAssemblyReference.cache
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\obj\Debug\WebUI.dll
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\obj\Debug\WebUI.pdb
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\bin\EntityFramework.dll
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\bin\EntityFramework.xml
+C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\bin\EntityFramework.SqlServer.xml
