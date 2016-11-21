@@ -39,3 +39,4 @@ C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\bin\Enti
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\bin\EntityFramework.SqlServer.dll
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\bin\EntityFramework.xml
 C:\Users\Maksim\documents\visual studio 2013\Projects\DeviceStore\WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\Maksim\Documents\Visual Studio 2013\Projects\DeviceStore\WebUI\bin\Microsoft.Web.Infrastructure.dll

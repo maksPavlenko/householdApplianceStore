@@ -21,11 +21,12 @@ namespace WebUI.Controllers
         }
         // Метод list визуализирует представление отобажающее полный список товаров
         //При вызове метода без праметра будет отображаться 1 страница
-        public ViewResult List( int page = 1 )
+        public ViewResult List(string category, int page = 1 )
         {
             DevicesListViewModel model = new DevicesListViewModel
             {
                 Devices = repository.Devices
+                .Where(b => category == null || b.Category == category)
                 .OrderBy(device => device.DeviceId)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize),
@@ -33,8 +34,11 @@ namespace WebUI.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = pageSize,
-                    TotalItems = repository.Devices.Count()
-                }
+                    TotalItems = category == null ? 
+                        repository.Devices.Count() : 
+                        repository.Devices.Where(device => device.Category == category).Count()
+                },
+                CurrentCategory = category
             };
 
             //снабжаем инфраструктуру данными 

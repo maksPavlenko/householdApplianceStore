@@ -7,15 +7,11 @@
 
 @foreach (var device in Model.Devices)
 {
-    <div>
-        <h3>@device.Name - @device.Country</h3>
-        <p>@device.Description</p>
-        <h4>@device.Price.ToString("# грн")</h4>
-    </div>
-    <hr />
+    //в качестве параметров передаются имя представления и объект модели представления
+    @Html.Partial("_DeviceSummary", device);
 }
 
-<div>
-    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x}))
+<div class="btn-group pull-right">
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x, category = Model.CurrentCategory }))
 </div>
 

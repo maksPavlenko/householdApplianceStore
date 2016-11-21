@@ -3,11 +3,27 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
     <title>@ViewBag.Title</title>
 </head>
     <body>
-        <div>
-            @RenderBody()
+
+        <div class=" navbar navbar-inverse" role="navigation">
+            <a href="#" class="navbar-brand">Device Store </a>
+            @Html.Action("Summary", "Cart")
         </div>
+        <div class="container">
+            <div class="row panel">
+                <div id="category" class="col-xs-4">
+                    @Html.Action("Menu", "Nav")
+                </div> 
+                <div class="col-xs-8">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        
 </body>
 </html>

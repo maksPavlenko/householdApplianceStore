@@ -9,7 +9,7 @@ namespace WebUI.Models
     {
         public int TotalItems { get; set; }     //общее кол-во девайсов
         public int ItemsPerPage { get; set; }   //общее кол-во девайсов на странице
-        public int CurrentPage { get; set; }    //номер текущейстраницы 
+        public int CurrentPage { get; set; }    //номер текущей страницы 
         public int TotalPages                   //общее кол-во страниц
         {
             get { return (int)Math.Ceiling((decimal)TotalItems / ItemsPerPage); }
